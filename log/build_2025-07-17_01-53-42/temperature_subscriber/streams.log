@@ -1,0 +1,31 @@
+[0.010s] Invoking command in '/home/acid/stuff/rover/build/temperature_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_subscriber -- -j12 -l12
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target temp_sub[0m
+[0.063s] [ 25%] [32mBuilding CXX object CMakeFiles/temp_sub.dir/src/main.cpp.o[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/temp_sub.dir/src/SubNode.cpp.o[0m
+[1.973s] In file included from [01m[K/home/acid/stuff/rover/src/sub/src/main.cpp:8[m[K:
+[1.973s] [01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:[m[K In member function ‘[01m[Kvoid temperatureSubscriber::topic_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.973s] [01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:23:35:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kstd_msgs::msg::Float32_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kfloat[m[K’})
+[1.973s]    23 |     temp_memory.temperatureChange([01;31m[K*(tempChange->data)[m[K);
+[1.973s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.973s] [01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:27:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+[1.974s]    27 |     if (CurrentTemperature [01;31m[K>[m[K 80.0f) {
+[1.974s]       |                            [01;31m[K^[m[K
+[1.974s] [01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:25:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcurrentTemperature[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.974s]    25 |     float [01;35m[KcurrentTemperature[m[K = temp_memory.getTemperature();
+[1.974s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.977s] [01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:[m[K In member function ‘[01m[Kvoid temperatureSubscriber::topic_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.977s] [01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:23:35:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kstd_msgs::msg::Float32_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kfloat[m[K’})
+[1.977s]    23 |     temp_memory.temperatureChange([01;31m[K*(tempChange->data)[m[K);
+[1.977s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.978s] [01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:27:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+[1.978s]    27 |     if (CurrentTemperature [01;31m[K>[m[K 80.0f) {
+[1.978s]       |                            [01;31m[K^[m[K
+[1.978s] [01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:25:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcurrentTemperature[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.978s]    25 |     float [01;35m[KcurrentTemperature[m[K = temp_memory.getTemperature();
+[1.978s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.826s] gmake[2]: *** [CMakeFiles/temp_sub.dir/build.make:90: CMakeFiles/temp_sub.dir/src/SubNode.cpp.o] Error 1
+[3.826s] gmake[2]: *** Waiting for unfinished jobs....
+[3.976s] gmake[2]: *** [CMakeFiles/temp_sub.dir/build.make:76: CMakeFiles/temp_sub.dir/src/main.cpp.o] Error 1
+[3.976s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/temp_sub.dir/all] Error 2
+[3.977s] gmake: *** [Makefile:146: all] Error 2
+[3.982s] Invoked command in '/home/acid/stuff/rover/build/temperature_subscriber' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_subscriber -- -j12 -l12

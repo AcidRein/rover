@@ -1,0 +1,1 @@
+Invoking command in '/home/acid/stuff/rover/build/temperature_subscriber': /usr/bin/cmake /home/acid/stuff/rover/src/sub -DCMAKE_INSTALL_PREFIX=/home/acid/stuff/rover/install/temperature_subscriber

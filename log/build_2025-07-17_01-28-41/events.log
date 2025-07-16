@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000504] (sub) JobQueued: {'identifier': 'sub', 'dependencies': OrderedDict()}
+[0.000550] (temperature_publisher) JobQueued: {'identifier': 'temperature_publisher', 'dependencies': OrderedDict()}
+[0.000586] (sub) JobStarted: {'identifier': 'sub'}
+[0.006660] (temperature_publisher) JobStarted: {'identifier': 'temperature_publisher'}
+[0.009456] (sub) JobProgress: {'identifier': 'sub', 'progress': 'cmake'}
+[0.011801] (sub) Command: {'cmd': ['/usr/bin/cmake', '/home/acid/stuff/rover/src/sub', '-DCMAKE_INSTALL_PREFIX=/home/acid/stuff/rover/install/sub'], 'cwd': '/home/acid/stuff/rover/build/sub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'acid'), ('GIT_ASKPASS', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('HOME', '/home/acid'), ('OLDPWD', '/home/acid/stuff/rover/src'), ('TERM_PROGRAM_VERSION', '1.102.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-9ead6b9b-d8a1-4482-8b40-7666dd0e9c60.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'acid'), ('NAME', 'Acid'), ('WSL_INTEROP', '/run/WSL/329_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/sengf/AppData/Local/Muse Hub/lib:/mnt/c/Users/sengf/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sengf/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sengf/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-920e1960c0.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/acid/stuff/rover/build/sub'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.017095] (temperature_publisher) JobProgress: {'identifier': 'temperature_publisher', 'progress': 'cmake'}
+[0.019494] (temperature_publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/acid/stuff/rover/src/pub', '-DCMAKE_INSTALL_PREFIX=/home/acid/stuff/rover/install/temperature_publisher'], 'cwd': '/home/acid/stuff/rover/build/temperature_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'acid'), ('GIT_ASKPASS', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('HOME', '/home/acid'), ('OLDPWD', '/home/acid/stuff/rover/src'), ('TERM_PROGRAM_VERSION', '1.102.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-9ead6b9b-d8a1-4482-8b40-7666dd0e9c60.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'acid'), ('NAME', 'Acid'), ('WSL_INTEROP', '/run/WSL/329_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/sengf/AppData/Local/Muse Hub/lib:/mnt/c/Users/sengf/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sengf/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sengf/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-920e1960c0.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/acid/stuff/rover/build/temperature_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099915] (-) TimerEvent: {}
+[0.194246] (sub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.194625] (temperature_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200174] (-) TimerEvent: {}
+[0.300694] (-) TimerEvent: {}
+[0.401341] (-) TimerEvent: {}
+[0.452632] (sub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.453219] (temperature_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.502078] (-) TimerEvent: {}
+[0.601580] (temperature_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.602188] (-) TimerEvent: {}
+[0.603251] (sub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702414] (-) TimerEvent: {}
+[0.704322] (temperature_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.707029] (sub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.708193] (temperature_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.708781] (temperature_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.709721] (temperature_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.711239] (sub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.711421] (sub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.711676] (sub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.713059] (temperature_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.713720] (sub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.802572] (-) TimerEvent: {}
+[0.810033] (temperature_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.810338] (sub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.814550] (temperature_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.814868] (sub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.814989] (temperature_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.815043] (sub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.815243] (temperature_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.815390] (sub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.905587] (-) TimerEvent: {}
+[1.005986] (-) TimerEvent: {}
+[1.079082] (sub) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.079478] (sub) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.079521] (sub) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.079553] (sub) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.079581] (sub) StderrLine: {'line': b'\n'}
+[1.079608] (sub) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.079634] (sub) StderrLine: {'line': b'  any of the following names:\n'}
+[1.079659] (sub) StderrLine: {'line': b'\n'}
+[1.079684] (sub) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.079713] (sub) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.079738] (sub) StderrLine: {'line': b'\n'}
+[1.079763] (sub) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.079788] (sub) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.079813] (sub) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.079838] (sub) StderrLine: {'line': b'  has been installed.\n'}
+[1.079862] (sub) StderrLine: {'line': b'\n'}
+[1.079886] (sub) StderrLine: {'line': b'\x1b[0m\n'}
+[1.079915] (sub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.079948] (sub) StdoutLine: {'line': b'See also "/home/acid/stuff/rover/build/sub/CMakeFiles/CMakeOutput.log".\n'}
+[1.079975] (temperature_publisher) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.080014] (temperature_publisher) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.080041] (temperature_publisher) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.080067] (temperature_publisher) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.080092] (temperature_publisher) StderrLine: {'line': b'\n'}
+[1.080117] (temperature_publisher) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.080143] (temperature_publisher) StderrLine: {'line': b'  any of the following names:\n'}
+[1.080168] (temperature_publisher) StderrLine: {'line': b'\n'}
+[1.080193] (temperature_publisher) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.080217] (temperature_publisher) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.080242] (temperature_publisher) StderrLine: {'line': b'\n'}
+[1.080266] (temperature_publisher) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.080291] (temperature_publisher) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.080316] (temperature_publisher) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.080341] (temperature_publisher) StderrLine: {'line': b'  has been installed.\n'}
+[1.080367] (temperature_publisher) StderrLine: {'line': b'\n'}
+[1.080392] (temperature_publisher) StderrLine: {'line': b'\x1b[0m\n'}
+[1.080419] (temperature_publisher) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.080447] (temperature_publisher) StdoutLine: {'line': b'See also "/home/acid/stuff/rover/build/temperature_publisher/CMakeFiles/CMakeOutput.log".\n'}
+[1.083121] (sub) CommandEnded: {'returncode': 1}
+[1.084916] (temperature_publisher) CommandEnded: {'returncode': 1}
+[1.106340] (-) TimerEvent: {}
+[1.108046] (sub) JobEnded: {'identifier': 'sub', 'rc': 1}
+[1.108966] (temperature_publisher) JobEnded: {'identifier': 'temperature_publisher', 'rc': 'SIGINT'}
+[1.119537] (-) EventReactorShutdown: {}

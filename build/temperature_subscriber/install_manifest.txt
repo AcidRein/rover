@@ -1,0 +1,16 @@
+/home/acid/stuff/rover/install/temperature_subscriber/lib/temperature_subscriber/temp_sub
+/home/acid/stuff/rover/install/temperature_subscriber/share/ament_index/resource_index/package_run_dependencies/temperature_subscriber
+/home/acid/stuff/rover/install/temperature_subscriber/share/ament_index/resource_index/parent_prefix_path/temperature_subscriber
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/ament_prefix_path.sh
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/ament_prefix_path.dsv
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/path.sh
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/path.dsv
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.bash
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.sh
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.zsh
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.dsv
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/package.dsv
+/home/acid/stuff/rover/install/temperature_subscriber/share/ament_index/resource_index/packages/temperature_subscriber
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/cmake/temperature_subscriberConfig.cmake
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/cmake/temperature_subscriberConfig-version.cmake
+/home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/package.xml

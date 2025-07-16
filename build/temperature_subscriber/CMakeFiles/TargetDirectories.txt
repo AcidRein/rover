@@ -1,0 +1,10 @@
+/home/acid/stuff/rover/build/temperature_subscriber/CMakeFiles/uninstall.dir
+/home/acid/stuff/rover/build/temperature_subscriber/CMakeFiles/temperature_subscriber_uninstall.dir
+/home/acid/stuff/rover/build/temperature_subscriber/CMakeFiles/temp_sub.dir
+/home/acid/stuff/rover/build/temperature_subscriber/CMakeFiles/test.dir
+/home/acid/stuff/rover/build/temperature_subscriber/CMakeFiles/edit_cache.dir
+/home/acid/stuff/rover/build/temperature_subscriber/CMakeFiles/rebuild_cache.dir
+/home/acid/stuff/rover/build/temperature_subscriber/CMakeFiles/list_install_components.dir
+/home/acid/stuff/rover/build/temperature_subscriber/CMakeFiles/install.dir
+/home/acid/stuff/rover/build/temperature_subscriber/CMakeFiles/install/local.dir
+/home/acid/stuff/rover/build/temperature_subscriber/CMakeFiles/install/strip.dir

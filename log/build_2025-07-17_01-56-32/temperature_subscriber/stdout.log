@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target temp_sub[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/temp_sub.dir/src/SubNode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/temp_sub.dir/src/main.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable temp_sub[0m
+[100%] Built target temp_sub
+-- Install configuration: ""
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/lib/temperature_subscriber/temp_sub
+-- Set runtime path of "/home/acid/stuff/rover/install/temperature_subscriber/lib/temperature_subscriber/temp_sub" to ""
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/ament_index/resource_index/package_run_dependencies/temperature_subscriber
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/ament_index/resource_index/parent_prefix_path/temperature_subscriber
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/ament_prefix_path.sh
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/ament_prefix_path.dsv
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/path.sh
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/path.dsv
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.bash
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.sh
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.zsh
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.dsv
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/package.dsv
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/ament_index/resource_index/packages/temperature_subscriber
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/cmake/temperature_subscriberConfig.cmake
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/cmake/temperature_subscriberConfig-version.cmake
+-- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/package.xml

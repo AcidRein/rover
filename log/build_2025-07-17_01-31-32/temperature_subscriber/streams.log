@@ -1,0 +1,10 @@
+[0.010s] Invoking command in '/home/acid/stuff/rover/build/temperature_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_subscriber -- -j12 -l12
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/temp_sub.dir/src/main.cpp.o[0m
+[0.115s] [01m[K/home/acid/stuff/rover/src/sub/src/main.cpp:6:10:[m[K [01;31m[Kfatal error: [m[KPubNode.cpp: No such file or directory
+[0.115s]     6 | #include [01;31m[K"PubNode.cpp"[m[K
+[0.115s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.115s] compilation terminated.
+[0.117s] gmake[2]: *** [CMakeFiles/temp_sub.dir/build.make:76: CMakeFiles/temp_sub.dir/src/main.cpp.o] Error 1
+[0.117s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/temp_sub.dir/all] Error 2
+[0.117s] gmake: *** [Makefile:146: all] Error 2
+[0.120s] Invoked command in '/home/acid/stuff/rover/build/temperature_subscriber' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_subscriber -- -j12 -l12

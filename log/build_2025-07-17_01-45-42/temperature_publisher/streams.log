@@ -1,0 +1,11 @@
+[0.012s] Invoking command in '/home/acid/stuff/rover/build/temperature_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_publisher -- -j12 -l12
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target temp_pub[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/temp_pub.dir/src/main.cpp.o[0m
+[3.710s] [100%] [32m[1mLinking CXX executable temp_pub[0m
+[3.920s] /usr/bin/ld: CMakeFiles/temp_pub.dir/src/main.cpp.o: in function `temperaturePublisher::timer_callback()':
+[3.920s] main.cpp:(.text._ZN20temperaturePublisher14timer_callbackEv[_ZN20temperaturePublisher14timer_callbackEv]+0x3d): undefined reference to `tempChange()'
+[3.938s] collect2: error: ld returned 1 exit status
+[3.940s] gmake[2]: *** [CMakeFiles/temp_pub.dir/build.make:159: temp_pub] Error 1
+[3.941s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/temp_pub.dir/all] Error 2
+[3.941s] gmake: *** [Makefile:146: all] Error 2
+[3.945s] Invoked command in '/home/acid/stuff/rover/build/temperature_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_publisher -- -j12 -l12

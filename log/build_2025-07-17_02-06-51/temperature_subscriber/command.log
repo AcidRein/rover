@@ -1,0 +1,4 @@
+Invoking command in '/home/acid/stuff/rover/build/temperature_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_subscriber -- -j12 -l12
+Invoked command in '/home/acid/stuff/rover/build/temperature_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_subscriber -- -j12 -l12
+Invoking command in '/home/acid/stuff/rover/build/temperature_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/acid/stuff/rover/build/temperature_subscriber
+Invoked command in '/home/acid/stuff/rover/build/temperature_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/acid/stuff/rover/build/temperature_subscriber

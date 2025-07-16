@@ -1,0 +1,8 @@
+In file included from [01m[K/home/acid/stuff/rover/src/pub/src/main.cpp:8[m[K:
+[01m[K/home/acid/stuff/rover/src/pub/src/PubNode.cpp:[m[K In constructor ‘[01m[KtemperaturePublisher::temperaturePublisher()[m[K’:
+[01m[K/home/acid/stuff/rover/src/pub/src/PubNode.cpp:20:38:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   20 |     timer_ = this->create_wall_timer([01;31m[K500ms[m[K, std::bind(&temperaturePublisher::timer_callback, this));
+      |                                      [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/temp_pub.dir/build.make:76: CMakeFiles/temp_pub.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/temp_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

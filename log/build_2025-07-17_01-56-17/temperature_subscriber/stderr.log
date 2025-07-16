@@ -1,0 +1,23 @@
+In file included from [01m[K/home/acid/stuff/rover/src/sub/src/main.cpp:8[m[K:
+[01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:[m[K In member function ‘[01m[Kvoid temperatureSubscriber::topic_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:24:34:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst CurrentTemperature[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   24 |     [01;31m[Ktemp_memory.temperatureChange(temperatureChange)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:3[m[K,
+                 from [01m[K/home/acid/stuff/rover/src/sub/src/main.cpp:8[m[K:
+[01m[K/home/acid/stuff/rover/src/sub/src/PackageSubsystem.hpp:5:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid CurrentTemperature::temperatureChange(float)[m[K’
+    5 |   void [01;36m[KtemperatureChange[m[K(float value);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:[m[K In member function ‘[01m[Kvoid temperatureSubscriber::topic_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:24:34:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst CurrentTemperature[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   24 |     [01;31m[Ktemp_memory.temperatureChange(temperatureChange)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:3[m[K:
+[01m[K/home/acid/stuff/rover/src/sub/src/PackageSubsystem.hpp:5:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid CurrentTemperature::temperatureChange(float)[m[K’
+    5 |   void [01;36m[KtemperatureChange[m[K(float value);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/temp_sub.dir/build.make:90: CMakeFiles/temp_sub.dir/src/SubNode.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/temp_sub.dir/build.make:76: CMakeFiles/temp_sub.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/temp_sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

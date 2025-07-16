@@ -1,0 +1,16 @@
+[0.016s] Invoking command in '/home/acid/stuff/rover/build/temperature_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_publisher -- -j12 -l12
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target temp_pub[0m
+[0.108s] [ 50%] [32mBuilding CXX object CMakeFiles/temp_pub.dir/src/main.cpp.o[0m
+[2.197s] In file included from [01m[K/home/acid/stuff/rover/src/pub/src/main.cpp:8[m[K:
+[2.197s] [01m[K/home/acid/stuff/rover/src/pub/src/PubNode.cpp:36:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.197s]    36 | }
+[2.198s]       |  [01;31m[K^[m[K
+[2.198s]       |  [32m[K;[m[K
+[2.199s] [01m[K/home/acid/stuff/rover/src/pub/src/PubNode.cpp:[m[K In constructor ‘[01m[KtemperaturePublisher::temperaturePublisher()[m[K’:
+[2.199s] [01m[K/home/acid/stuff/rover/src/pub/src/PubNode.cpp:20:38:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[2.199s]    20 |     timer_ = this->create_wall_timer([01;31m[K500ms[m[K, std::bind(&temperaturePublisher::timer_callback, this));
+[2.199s]       |                                      [01;31m[K^~~~~[m[K
+[2.883s] gmake[2]: *** [CMakeFiles/temp_pub.dir/build.make:76: CMakeFiles/temp_pub.dir/src/main.cpp.o] Error 1
+[2.883s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/temp_pub.dir/all] Error 2
+[2.883s] gmake: *** [Makefile:146: all] Error 2
+[2.888s] Invoked command in '/home/acid/stuff/rover/build/temperature_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_publisher -- -j12 -l12

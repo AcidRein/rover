@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target temp_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/temp_pub.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable temp_pub[0m

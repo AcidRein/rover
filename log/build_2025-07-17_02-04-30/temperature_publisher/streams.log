@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/acid/stuff/rover/build/temperature_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_publisher -- -j12 -l12
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/temp_pub.dir/src/main.cpp.o[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/temp_pub.dir/src/PubNode.cpp.o[0m
+[4.056s] [ 75%] [32m[1mLinking CXX executable temp_pub[0m
+[4.254s] [100%] Built target temp_pub
+[4.268s] Invoked command in '/home/acid/stuff/rover/build/temperature_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_publisher -- -j12 -l12
+[4.279s] Invoking command in '/home/acid/stuff/rover/build/temperature_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/acid/stuff/rover/build/temperature_publisher
+[4.286s] -- Install configuration: ""
+[4.286s] -- Installing: /home/acid/stuff/rover/install/temperature_publisher/lib/temperature_publisher/temp_pub
+[4.288s] -- Set runtime path of "/home/acid/stuff/rover/install/temperature_publisher/lib/temperature_publisher/temp_pub" to ""
+[4.289s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/ament_index/resource_index/package_run_dependencies/temperature_publisher
+[4.289s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/ament_index/resource_index/parent_prefix_path/temperature_publisher
+[4.289s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/environment/ament_prefix_path.sh
+[4.289s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/environment/ament_prefix_path.dsv
+[4.289s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/environment/path.sh
+[4.290s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/environment/path.dsv
+[4.290s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/local_setup.bash
+[4.290s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/local_setup.sh
+[4.290s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/local_setup.zsh
+[4.290s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/local_setup.dsv
+[4.290s] -- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/package.dsv
+[4.290s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/ament_index/resource_index/packages/temperature_publisher
+[4.291s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/cmake/temperature_publisherConfig.cmake
+[4.291s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/cmake/temperature_publisherConfig-version.cmake
+[4.291s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/package.xml
+[4.292s] Invoked command in '/home/acid/stuff/rover/build/temperature_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/acid/stuff/rover/build/temperature_publisher

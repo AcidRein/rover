@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target temp_sub[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/temp_sub.dir/src/main.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/temp_sub.dir/src/SubNode.cpp.o[0m

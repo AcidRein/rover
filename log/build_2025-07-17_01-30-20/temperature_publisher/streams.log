@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/acid/stuff/rover/build/temperature_publisher': /usr/bin/cmake /home/acid/stuff/rover/src/pub -DCMAKE_INSTALL_PREFIX=/home/acid/stuff/rover/install/temperature_publisher
+[0.638s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.638s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.638s]   has asked CMake to find a package configuration file provided by
+[0.638s]   "ament_cmake", but CMake did not find one.
+[0.638s] 
+[0.638s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.638s]   any of the following names:
+[0.638s] 
+[0.638s]     ament_cmakeConfig.cmake
+[0.638s]     ament_cmake-config.cmake
+[0.639s] 
+[0.639s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.639s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.639s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.639s]   has been installed.
+[0.639s] 
+[0.639s] [0m
+[0.639s] -- Configuring incomplete, errors occurred!
+[0.639s] See also "/home/acid/stuff/rover/build/temperature_publisher/CMakeFiles/CMakeOutput.log".
+[0.641s] Invoked command in '/home/acid/stuff/rover/build/temperature_publisher' returned '1': /usr/bin/cmake /home/acid/stuff/rover/src/pub -DCMAKE_INSTALL_PREFIX=/home/acid/stuff/rover/install/temperature_publisher

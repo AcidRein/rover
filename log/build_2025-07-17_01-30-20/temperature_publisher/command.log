@@ -1,0 +1,2 @@
+Invoking command in '/home/acid/stuff/rover/build/temperature_publisher': /usr/bin/cmake /home/acid/stuff/rover/src/pub -DCMAKE_INSTALL_PREFIX=/home/acid/stuff/rover/install/temperature_publisher
+Invoked command in '/home/acid/stuff/rover/build/temperature_publisher' returned '1': /usr/bin/cmake /home/acid/stuff/rover/src/pub -DCMAKE_INSTALL_PREFIX=/home/acid/stuff/rover/install/temperature_publisher

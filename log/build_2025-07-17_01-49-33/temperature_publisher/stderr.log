@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/temp_pub.dir/src/main.cpp.o: in function `temperaturePublisher::timer_callback()':
+main.cpp:(.text._ZN20temperaturePublisher14timer_callbackEv[_ZN20temperaturePublisher14timer_callbackEv]+0x3d): undefined reference to `temperatureChange()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/temp_pub.dir/build.make:159: temp_pub] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/temp_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

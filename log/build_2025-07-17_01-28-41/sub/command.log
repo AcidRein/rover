@@ -1,0 +1,2 @@
+Invoking command in '/home/acid/stuff/rover/build/sub': /usr/bin/cmake /home/acid/stuff/rover/src/sub -DCMAKE_INSTALL_PREFIX=/home/acid/stuff/rover/install/sub
+Invoked command in '/home/acid/stuff/rover/build/sub' returned '1': /usr/bin/cmake /home/acid/stuff/rover/src/sub -DCMAKE_INSTALL_PREFIX=/home/acid/stuff/rover/install/sub

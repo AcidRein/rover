@@ -1,0 +1,27 @@
+[0.010s] Invoking command in '/home/acid/stuff/rover/build/temperature_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_subscriber -- -j12 -l12
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target temp_sub[0m
+[0.064s] [ 25%] [32mBuilding CXX object CMakeFiles/temp_sub.dir/src/main.cpp.o[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/temp_sub.dir/src/SubNode.cpp.o[0m
+[6.609s] [ 75%] [32m[1mLinking CXX executable temp_sub[0m
+[6.886s] [100%] Built target temp_sub
+[6.899s] Invoked command in '/home/acid/stuff/rover/build/temperature_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/acid/stuff/rover/build/temperature_subscriber -- -j12 -l12
+[6.900s] Invoking command in '/home/acid/stuff/rover/build/temperature_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/acid/stuff/rover/build/temperature_subscriber
+[6.907s] -- Install configuration: ""
+[6.907s] -- Installing: /home/acid/stuff/rover/install/temperature_subscriber/lib/temperature_subscriber/temp_sub
+[6.914s] -- Set runtime path of "/home/acid/stuff/rover/install/temperature_subscriber/lib/temperature_subscriber/temp_sub" to ""
+[6.914s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/ament_index/resource_index/package_run_dependencies/temperature_subscriber
+[6.914s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/ament_index/resource_index/parent_prefix_path/temperature_subscriber
+[6.914s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/ament_prefix_path.sh
+[6.915s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/ament_prefix_path.dsv
+[6.915s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/path.sh
+[6.915s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/environment/path.dsv
+[6.915s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.bash
+[6.915s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.sh
+[6.915s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.zsh
+[6.915s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/local_setup.dsv
+[6.915s] -- Installing: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/package.dsv
+[6.915s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/ament_index/resource_index/packages/temperature_subscriber
+[6.915s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/cmake/temperature_subscriberConfig.cmake
+[6.915s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/cmake/temperature_subscriberConfig-version.cmake
+[6.915s] -- Up-to-date: /home/acid/stuff/rover/install/temperature_subscriber/share/temperature_subscriber/package.xml
+[6.917s] Invoked command in '/home/acid/stuff/rover/build/temperature_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/acid/stuff/rover/build/temperature_subscriber

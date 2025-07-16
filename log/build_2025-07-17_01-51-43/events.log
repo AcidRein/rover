@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000387] (temperature_publisher) JobQueued: {'identifier': 'temperature_publisher', 'dependencies': OrderedDict()}
+[0.000477] (temperature_subscriber) JobQueued: {'identifier': 'temperature_subscriber', 'dependencies': OrderedDict()}
+[0.000533] (temperature_publisher) JobStarted: {'identifier': 'temperature_publisher'}
+[0.004321] (temperature_subscriber) JobStarted: {'identifier': 'temperature_subscriber'}
+[0.007339] (temperature_publisher) JobProgress: {'identifier': 'temperature_publisher', 'progress': 'cmake'}
+[0.007888] (temperature_publisher) JobProgress: {'identifier': 'temperature_publisher', 'progress': 'build'}
+[0.008942] (temperature_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/acid/stuff/rover/build/temperature_publisher', '--', '-j12', '-l12'], 'cwd': '/home/acid/stuff/rover/build/temperature_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'acid'), ('GIT_ASKPASS', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/acid'), ('OLDPWD', '/home/acid/stuff/rover/src'), ('TERM_PROGRAM_VERSION', '1.102.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-9ead6b9b-d8a1-4482-8b40-7666dd0e9c60.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'acid'), ('NAME', 'Acid'), ('WSL_INTEROP', '/run/WSL/329_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/sengf/AppData/Local/Muse Hub/lib:/mnt/c/Users/sengf/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sengf/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sengf/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-920e1960c0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/acid/stuff/rover/build/temperature_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.012656] (temperature_subscriber) JobProgress: {'identifier': 'temperature_subscriber', 'progress': 'cmake'}
+[0.013099] (temperature_subscriber) JobProgress: {'identifier': 'temperature_subscriber', 'progress': 'build'}
+[0.013871] (temperature_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/acid/stuff/rover/build/temperature_subscriber', '--', '-j12', '-l12'], 'cwd': '/home/acid/stuff/rover/build/temperature_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'acid'), ('GIT_ASKPASS', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/acid'), ('OLDPWD', '/home/acid/stuff/rover/src'), ('TERM_PROGRAM_VERSION', '1.102.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-9ead6b9b-d8a1-4482-8b40-7666dd0e9c60.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'acid'), ('NAME', 'Acid'), ('WSL_INTEROP', '/run/WSL/329_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/sengf/AppData/Local/Muse Hub/lib:/mnt/c/Users/sengf/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sengf/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sengf/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-920e1960c0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/acid/stuff/rover/build/temperature_subscriber'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037776] (temperature_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.038025] (temperature_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099651] (-) TimerEvent: {}
+[0.143389] (temperature_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.143576] (temperature_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199939] (-) TimerEvent: {}
+[0.232093] (temperature_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.232278] (temperature_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.234997] (temperature_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.235123] (temperature_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.242288] (temperature_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.242415] (temperature_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.253264] (temperature_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.253418] (temperature_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.265889] (temperature_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.266011] (temperature_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.301329] (-) TimerEvent: {}
+[0.302426] (temperature_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.302659] (temperature_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.304593] (temperature_subscriber) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.304895] (temperature_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.407091] (-) TimerEvent: {}
+[0.507551] (-) TimerEvent: {}
+[0.608067] (-) TimerEvent: {}
+[0.708610] (-) TimerEvent: {}
+[0.809247] (-) TimerEvent: {}
+[0.909544] (-) TimerEvent: {}
+[1.009976] (-) TimerEvent: {}
+[1.112071] (-) TimerEvent: {}
+[1.212601] (-) TimerEvent: {}
+[1.315032] (-) TimerEvent: {}
+[1.404773] (temperature_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.405159] (temperature_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.415684] (-) TimerEvent: {}
+[1.466345] (temperature_subscriber) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.466576] (temperature_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.515971] (-) TimerEvent: {}
+[1.521778] (temperature_subscriber) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.522250] (temperature_subscriber) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/acid/stuff/rover/src/sub/include>\n'}
+[1.522344] (temperature_subscriber) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.522382] (temperature_publisher) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.522423] (temperature_publisher) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/acid/stuff/rover/src/pub/include>\n'}
+[1.522455] (temperature_publisher) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.522677] (temperature_publisher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.522807] (temperature_subscriber) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.523959] (temperature_publisher) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.524114] (temperature_publisher) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.524329] (temperature_subscriber) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.524427] (temperature_subscriber) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.524564] (temperature_subscriber) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.524640] (temperature_publisher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.526451] (temperature_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.526533] (temperature_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.538074] (temperature_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[1.541342] (temperature_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/acid/stuff/rover/build/temperature_subscriber\n'}
+[1.541960] (temperature_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[1.545646] (temperature_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/acid/stuff/rover/build/temperature_publisher\n'}
+[1.565082] (temperature_subscriber) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target temp_sub\x1b[0m\n'}
+[1.568051] (temperature_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target temp_pub\x1b[0m\n'}
+[1.580438] (temperature_subscriber) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/temp_sub.dir/src/PackageSubsystem.cpp.o\x1b[0m\n'}
+[1.580665] (temperature_subscriber) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/temp_sub.dir/src/SubNode.cpp.o\x1b[0m\n'}
+[1.580720] (temperature_subscriber) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/temp_sub.dir/src/main.cpp.o\x1b[0m\n'}
+[1.582723] (temperature_publisher) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/temp_pub.dir/src/PubNode.cpp.o\x1b[0m\n'}
+[1.583649] (temperature_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/temp_pub.dir/src/PackageSubsystem.cpp.o\x1b[0m\n'}
+[1.616272] (-) TimerEvent: {}
+[1.716854] (-) TimerEvent: {}
+[1.817462] (-) TimerEvent: {}
+[1.917857] (-) TimerEvent: {}
+[2.018252] (-) TimerEvent: {}
+[2.118822] (-) TimerEvent: {}
+[2.221882] (-) TimerEvent: {}
+[2.322319] (-) TimerEvent: {}
+[2.424845] (-) TimerEvent: {}
+[2.528212] (-) TimerEvent: {}
+[2.631470] (-) TimerEvent: {}
+[2.734716] (-) TimerEvent: {}
+[2.835717] (-) TimerEvent: {}
+[2.936504] (-) TimerEvent: {}
+[3.039904] (-) TimerEvent: {}
+[3.143441] (-) TimerEvent: {}
+[3.244639] (-) TimerEvent: {}
+[3.345441] (-) TimerEvent: {}
+[3.446220] (-) TimerEvent: {}
+[3.546798] (-) TimerEvent: {}
+[3.647422] (-) TimerEvent: {}
+[3.750492] (-) TimerEvent: {}
+[3.804650] (temperature_subscriber) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.805255] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.805413] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.805487] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.805536] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.805578] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.805622] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.805693] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.805743] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.805848] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.805912] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.805963] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[3.806008] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid temperatureSubscriber::topic_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.806055] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:21:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.806130] (temperature_subscriber) StderrLine: {'line': b'   21 |     RCLCPP_INFO(this->get_logger(), "Temperature Change Received: \'%f\'", tempChange.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K);\n'}
+[3.806205] (temperature_subscriber) StderrLine: {'line': b'      |                                                                                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.806272] (temperature_subscriber) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[3.806325] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:23:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst CurrentTemperature\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.806390] (temperature_subscriber) StderrLine: {'line': b'   23 |     \x1b[01;31m\x1b[Ktemp_memory.temperatureChange(tempChange->data)\x1b[m\x1b[K;\n'}
+[3.806488] (temperature_subscriber) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.806539] (temperature_subscriber) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:3\x1b[m\x1b[K,\n'}
+[3.806594] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[3.806650] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/PackageSubsystem.hpp:5:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kvoid CurrentTemperature::temperatureChange(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.806696] (temperature_subscriber) StderrLine: {'line': b'    5 |   void \x1b[01;36m\x1b[KtemperatureChange\x1b[m\x1b[K(float value);\n'}
+[3.806738] (temperature_subscriber) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.806800] (temperature_subscriber) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[3.806876] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:27:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.806941] (temperature_subscriber) StderrLine: {'line': b'   27 |     if (CurrentTemperature \x1b[01;31m\x1b[K>\x1b[m\x1b[K 80.0f) {\n'}
+[3.806988] (temperature_subscriber) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.807033] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:25:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KcurrentTemperature\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.807131] (temperature_subscriber) StderrLine: {'line': b'   25 |     float \x1b[01;35m\x1b[KcurrentTemperature\x1b[m\x1b[K = temp_memory.getTemperature();\n'}
+[3.807182] (temperature_subscriber) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.813504] (temperature_subscriber) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.813753] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.813846] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.813926] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.813997] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.814077] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.814153] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.814204] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.814243] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.814280] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.814314] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.814348] (temperature_subscriber) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:4\x1b[m\x1b[K:\n'}
+[3.814383] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid temperatureSubscriber::topic_callback(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.814418] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:21:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.814455] (temperature_subscriber) StderrLine: {'line': b'   21 |     RCLCPP_INFO(this->get_logger(), "Temperature Change Received: \'%f\'", tempChange.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K);\n'}
+[3.814493] (temperature_subscriber) StderrLine: {'line': b'      |                                                                                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.814535] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:23:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst CurrentTemperature\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.814581] (temperature_subscriber) StderrLine: {'line': b'   23 |     \x1b[01;31m\x1b[Ktemp_memory.temperatureChange(tempChange->data)\x1b[m\x1b[K;\n'}
+[3.814620] (temperature_subscriber) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.814660] (temperature_subscriber) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:3\x1b[m\x1b[K:\n'}
+[3.814699] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/PackageSubsystem.hpp:5:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kvoid CurrentTemperature::temperatureChange(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.814809] (temperature_subscriber) StderrLine: {'line': b'    5 |   void \x1b[01;36m\x1b[KtemperatureChange\x1b[m\x1b[K(float value);\n'}
+[3.814848] (temperature_subscriber) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.814883] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:27:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.814922] (temperature_subscriber) StderrLine: {'line': b'   27 |     if (CurrentTemperature \x1b[01;31m\x1b[K>\x1b[m\x1b[K 80.0f) {\n'}
+[3.814953] (temperature_subscriber) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.814985] (temperature_subscriber) StderrLine: {'line': b'\x1b[01m\x1b[K/home/acid/stuff/rover/src/sub/src/SubNode.cpp:25:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KcurrentTemperature\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.815018] (temperature_subscriber) StderrLine: {'line': b'   25 |     float \x1b[01;35m\x1b[KcurrentTemperature\x1b[m\x1b[K = temp_memory.getTemperature();\n'}
+[3.815051] (temperature_subscriber) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.852027] (-) TimerEvent: {}
+[3.958312] (-) TimerEvent: {}
+[4.060365] (-) TimerEvent: {}
+[4.161590] (-) TimerEvent: {}
+[4.262723] (-) TimerEvent: {}
+[4.365101] (-) TimerEvent: {}
+[4.416592] (temperature_publisher) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable temp_pub\x1b[0m\n'}
+[4.465467] (-) TimerEvent: {}
+[4.569743] (-) TimerEvent: {}
+[4.606538] (temperature_publisher) StdoutLine: {'line': b'[100%] Built target temp_pub\n'}
+[4.618879] (temperature_publisher) CommandEnded: {'returncode': 0}
+[4.619943] (temperature_publisher) JobProgress: {'identifier': 'temperature_publisher', 'progress': 'install'}
+[4.629201] (temperature_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/acid/stuff/rover/build/temperature_publisher'], 'cwd': '/home/acid/stuff/rover/build/temperature_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'acid'), ('GIT_ASKPASS', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/acid'), ('OLDPWD', '/home/acid/stuff/rover/src'), ('TERM_PROGRAM_VERSION', '1.102.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-9ead6b9b-d8a1-4482-8b40-7666dd0e9c60.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'acid'), ('NAME', 'Acid'), ('WSL_INTEROP', '/run/WSL/329_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/acid/.vscode-server/bin/cb0c47c0cfaad0757385834bd89d410c78a856c0/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/sengf/AppData/Local/Muse Hub/lib:/mnt/c/Users/sengf/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sengf/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sengf/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-920e1960c0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/acid/stuff/rover/build/temperature_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.635873] (temperature_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.636987] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/lib/temperature_publisher/temp_pub\n'}
+[4.638901] (temperature_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/acid/stuff/rover/install/temperature_publisher/lib/temperature_publisher/temp_pub" to ""\n'}
+[4.639960] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/ament_index/resource_index/package_run_dependencies/temperature_publisher\n'}
+[4.640501] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/ament_index/resource_index/parent_prefix_path/temperature_publisher\n'}
+[4.641057] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/environment/ament_prefix_path.sh\n'}
+[4.641253] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/environment/ament_prefix_path.dsv\n'}
+[4.641579] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/environment/path.sh\n'}
+[4.641703] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/environment/path.dsv\n'}
+[4.641867] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/local_setup.bash\n'}
+[4.642111] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/local_setup.sh\n'}
+[4.642332] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/local_setup.zsh\n'}
+[4.642553] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/local_setup.dsv\n'}
+[4.642773] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/package.dsv\n'}
+[4.643312] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/ament_index/resource_index/packages/temperature_publisher\n'}
+[4.643841] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/cmake/temperature_publisherConfig.cmake\n'}
+[4.644053] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/cmake/temperature_publisherConfig-version.cmake\n'}
+[4.644265] (temperature_publisher) StdoutLine: {'line': b'-- Installing: /home/acid/stuff/rover/install/temperature_publisher/share/temperature_publisher/package.xml\n'}
+[4.646328] (temperature_publisher) CommandEnded: {'returncode': 0}
+[4.661552] (temperature_publisher) JobEnded: {'identifier': 'temperature_publisher', 'rc': 0}
+[4.669860] (-) TimerEvent: {}
+[4.770918] (-) TimerEvent: {}
+[4.872040] (-) TimerEvent: {}
+[4.972580] (-) TimerEvent: {}
+[5.074636] (-) TimerEvent: {}
+[5.176256] (-) TimerEvent: {}
+[5.278000] (-) TimerEvent: {}
+[5.378430] (-) TimerEvent: {}
+[5.478853] (-) TimerEvent: {}
+[5.510301] (temperature_subscriber) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/temp_sub.dir/build.make:90: CMakeFiles/temp_sub.dir/src/SubNode.cpp.o] Error 1\n'}
+[5.510533] (temperature_subscriber) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[5.579309] (-) TimerEvent: {}
+[5.641326] (temperature_subscriber) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/temp_sub.dir/build.make:76: CMakeFiles/temp_sub.dir/src/main.cpp.o] Error 1\n'}
+[5.641714] (temperature_subscriber) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/temp_sub.dir/all] Error 2\n'}
+[5.642093] (temperature_subscriber) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.644802] (temperature_subscriber) CommandEnded: {'returncode': 2}
+[5.648778] (temperature_subscriber) JobEnded: {'identifier': 'temperature_subscriber', 'rc': 2}
+[5.659755] (-) EventReactorShutdown: {}
